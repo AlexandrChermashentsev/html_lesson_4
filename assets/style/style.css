@@ -32,6 +32,7 @@ ul {
 }
 
 .base-container {
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -44,29 +45,27 @@ ul {
     gap: 30px;
 }
 .top-section-item {
-    /* max-width: 381px; */
     background: #FFF;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
     padding: 40px 30px 25px;
+
 }
 .top-section-icon {
     margin-bottom: 25px;
 }
 .top-section-title {
     color: #000;
-    font-family: Gilroy-Bold;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 17px;
 }
 .top-section-paragraph {
     color: #666;
-    font-family: Gilroy-Regular;
     font-size: 15px;
     font-weight: 400;
     line-height: 150%; /* 22.5px */
     margin-bottom: 25px;
-    max-width: 270px;
+
 }
 .top-section-a {
     color: #000;
@@ -74,4 +73,69 @@ ul {
     font-size: 11px;
     font-weight: 700;
     line-height: 150%; /* 16.5px */
+}
+
+.bottom-section {
+    background-color: #FAFAFA;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 92px;
+}
+.section-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 54px;
+}
+.section-header__title {
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header__text {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    max-width: 682px;
+}
+.section-offers {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.section-offers__item {
+    background-color: #FFF;
+}
+.section-offers-item__title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+.section-offers-item__text {
+    color: #AAA;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+    margin: 22px 30px 39px;
+}
+.offers-item__button {
+    background-color: rgba(242, 88, 34, 1);
+    border-radius: 25px;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+
+}
+.offers-item-button__text {
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 150%; /* 19.5px */
 }
